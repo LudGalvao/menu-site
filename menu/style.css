@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+h1{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 18px;
+}
+
+p{
+    color: white;
+    margin-top: 5px;
+}
+
+.p2{
+    color: black;
+}
+
+#Principal {
+    width: 1366px;
+    margin:0 auto;
+}
+
+header {
+    height: 150px;
+    background-image:url("../menu/imagens/bck-header.jpg");
+    background-repeat: no-repeat; /*repeat-y*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Foto {
+    width: 190px;
+    height: 190px;
+}
+
+#Foto img {
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+nav {
+    width: 650px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;/*para tirar bullet*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+ul li {
+        background-color: white;
+        padding: 5px 15px;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        font-size: 18px;
+        text-transform: uppercase;
+}
+
+ul li a {
+    color:black;
+    text-decoration: none; /* tira o sublinhado*/
+}
+
+ul li:hover{
+    background-color: gold;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+/*aqui começa a meiuca*/
+
+#meiuca {
+    background-color: red;
+    color: black;
+    margin-top: 12px;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#destaque-principal {
+    display: flex;
+    justify-content: center;
+    width: 966px;
+    height: 220px;
+}
+
+#textos{
+    margin-left: 20px;
+}
+
+section{
+    width: 966px;
+    height: 320px;
+    background-color: orange;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trabalhos{
+    width: 300px;
+    height: 280px;
+}
+
+aside{
+    width: 320px;
+    background-color: brown;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bt{
+    padding: 10px 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.bt:hover{
+    background-color: cadetblue;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
